@@ -1366,3 +1366,106 @@ padding-bottom: 60px;
     z-index:-50;
 
 }
+
+/* ===========================
+   MÓVILES
+=========================== */
+
+@media (max-width:768px){
+
+    /* General */
+
+    h1{
+        font-size:2rem !important;
+    }
+
+    h2{
+        font-size:1.6rem !important;
+    }
+
+    p{
+        font-size:1rem !important;
+        line-height:1.6rem !important;
+    }
+
+    /* Chapter 3 */
+
+    .memory-photo{
+
+        width:75vw;
+
+    }
+
+    .story-card{
+
+        width:92%;
+
+        bottom:20px;
+
+        padding:18px;
+
+    }
+
+    /* Chapter 4 */
+
+    .gallery{
+
+        padding:20px;
+
+        gap:15px;
+
+    }
+
+    .photo-card{
+
+        min-width:220px;
+
+        height:320px;
+
+    }
+
+    .viewer-content{
+
+        width:92%;
+
+    }
+
+    .viewer img{
+
+        max-height:45vh;
+
+    }
+
+    /* Chapter 5 */
+
+    .envelope{
+
+        width:90vw;
+
+        max-width:340px;
+
+    }
+
+    .letter.show{
+
+        height:60vh;
+
+    }
+
+    .letter-content{
+
+        font-size:.95rem;
+
+        line-height:1.6rem;
+
+    }
+
+    .gift-button{
+
+        width:90%;
+
+        max-width:320px;
+
+    }
+
+}
