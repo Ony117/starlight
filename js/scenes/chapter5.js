@@ -18,12 +18,13 @@ export class Chapter5 {
 
             <div class="table-light"></div>
 
+            <button class="gift-button hidden">
+                🎁 Abrir mi último regalo
+            </button>
+
             <div class="envelope">
 
-                <button class="gift-button hidden">
-                    🎁 Abrir mi último regalo
-                </button>
-                
+
                 <div class="flap"></div>
 
                 <div class="letter">
