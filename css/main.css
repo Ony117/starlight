@@ -1,0 +1,113 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html,
+body{
+
+    width:100%;
+
+    height:100%;
+
+    overflow:hidden;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        sans-serif;
+
+}
+
+@media (max-width:768px){
+
+    .gallery-title{
+        font-size:2rem;
+    }
+
+    .photo-card{
+        min-width:220px;
+        height:330px;
+    }
+
+    .viewer-content{
+        width:95%;
+    }
+
+    .letter{
+        font-size:.95rem;
+    }
+
+    .letter-content{
+        line-height:1.7rem;
+    }
+
+    .gift-box{
+        transform:scale(.85);
+    }
+
+}
+
+#app{
+
+    width:100vw;
+
+    height:100vh;
+
+    position:relative;
+
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+}
+
+h1,h2,h3{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+}
+
+button{
+
+    font-family:"Inter",sans-serif;
+
+    transition:.35s;
+
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+button:active{
+
+    transform:scale(.96);
+
+}
+
+img{
+
+    user-select:none;
+
+    -webkit-user-drag:none;
+
+}
