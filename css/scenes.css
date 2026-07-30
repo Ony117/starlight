@@ -1470,26 +1470,3 @@ padding-bottom: 60px;
 
 }
 
-.viewer-buttons{
-    display:flex;
-    justify-content:center;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-top:20px;
-}
-
-.viewer-buttons button{
-    flex:1;
-    min-width:120px;
-    max-width:180px;
-}
-
-.viewer-buttons{
-    flex-direction:column;
-    align-items:center;
-}
-
-.viewer-buttons button{
-    width:90%;
-    max-width:260px;
-}
