@@ -16,11 +16,9 @@ export class Chapter5 {
 
         <section class="letter-scene">
 
+
             <div class="table-light"></div>
 
-            <button class="gift-button hidden">
-                🎁 Abrir mi último regalo
-            </button>
 
             <div class="envelope">
 
@@ -32,14 +30,18 @@ export class Chapter5 {
                     <div class="letter-content"></div>
                 </div>
 
-
-            </div>
+            <button class="gift-button hidden">
+                🎁 Abrir mi último regalo
+            </button>
 
             <div class="hint">
 
                 Toca el sobre
 
             </div>
+
+            </div>
+
 
         </section>
 

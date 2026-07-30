@@ -1,5 +1,6 @@
 import { Chapter1 } from "./chapter1.js";
 import { music } from "../app.js";
+import { Chapter5 } from "./chapter5.js";
 
 export class IntroScene {
 
@@ -74,7 +75,7 @@ export class IntroScene {
 
             setTimeout(() => {
 
-                new Chapter1(this.container);
+                new Chapter5(this.container);
 
             }, 2500);
 
